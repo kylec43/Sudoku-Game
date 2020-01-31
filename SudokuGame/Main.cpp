@@ -10,6 +10,7 @@
 #include "Level_ID.h"
 #include "Game_Loop.h"
 #include <mutex>
+#include <ShlObj_core.h>
 
 int window_width = 0;
 int window_height = 0;
@@ -63,7 +64,11 @@ int main(int argc, char* args[])
 
 
 	/*Check if a save file exists*/
-	std::fstream file("sudoku_save_file");
+	char documents_path[MAX_PATH];
+	SHGetFolderPath(NULL, CSIDL_PERSONAL, NULL, SHGFP_TYPE_CURRENT, documents_path);
+	std::string path = documents_path;
+	path = path + "/SudokuGame/";
+	std::fstream file(path + "sudoku_save_file");
 	if (file.is_open())
 	{
 		save_exists = true;

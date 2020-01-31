@@ -7,7 +7,6 @@
 #include <string>
 #include <iostream>
 #include <atomic>
-#include <Windows.h>
 #include <ShlObj_core.h>
 
 extern int window_width;
