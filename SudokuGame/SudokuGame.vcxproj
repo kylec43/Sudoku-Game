@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{69E716D1-9B69-4AFD-A6F5-4C6EC8C524F2}</ProjectGuid>
+    <RootNamespace>SudokuGame</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>C:\Users\kylec\Desktop\SDL2_image-2.0.5\include;C:\Users\kylec\Desktop\SDL2-2.0.10\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\kylec\Desktop\SDL2-2.0.10\lib\x64;C:\Users\kylec\Desktop\SDL2_image-2.0.5\lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>D:\Users\kylec\Desktop\SDL2_ttf-2.0.15\include;D:\Users\kylec\Desktop\SDL2_image-2.0.5\include;D:\Users\kylec\Desktop\SDL2-2.0.10\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Users\kylec\Desktop\SDL2_ttf-2.0.15\lib\x86;D:\Users\kylec\Desktop\SDL2-2.0.10\lib\x86;D:\Users\kylec\Desktop\SDL2_image-2.0.5\lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>C:\Users\kylec\Desktop\SDL2_ttf-2.0.15\include;C:\Users\kylec\Desktop\SDL2_image-2.0.5\include;C:\Users\kylec\Desktop\SDL2-2.0.10\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\kylec\Desktop\SDL2_ttf-2.0.15\lib\x64;C:\Users\kylec\Desktop\SDL2_image-2.0.5\lib\x64;C:\Users\kylec\Desktop\SDL2-2.0.10\lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>C:\Users\kylec\Desktop\SDL2_ttf-2.0.15\include;C:\Users\kylec\Desktop\SDL2_image-2.0.5\include;C:\Users\kylec\Desktop\SDL2-2.0.10\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\kylec\Desktop\SDL2_ttf-2.0.15\lib\x64;C:\Users\kylec\Desktop\SDL2_image-2.0.5\lib\x64;C:\Users\kylec\Desktop\SDL2-2.0.10\lib\x64;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Background.cpp" />
+    <ClCompile Include="Board_Loader.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="Event_Helper_Functions.cpp" />
+    <ClCompile Include="New_Game_Button.cpp" />
+    <ClCompile Include="Complete_Button.cpp" />
+    <ClCompile Include="Difficulty_Select.cpp" />
+    <ClCompile Include="Difficulty_Button.cpp" />
+    <ClCompile Include="GameData.cpp" />
+    <ClCompile Include="Game_Loop.cpp" />
+    <ClCompile Include="Key_Down_Events.cpp" />
+    <ClCompile Include="Level_Handler.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Main_Menu.cpp" />
+    <ClCompile Include="Main_Menu_Button.cpp" />
+    <ClCompile Include="Message_Box.cpp" />
+    <ClCompile Include="Message_Handler.cpp" />
+    <ClCompile Include="Mouse_Down_Events.cpp" />
+    <ClCompile Include="Mouse_Dragging_Events.cpp" />
+    <ClCompile Include="Mouse_Up_Events.cpp" />
+    <ClCompile Include="Number_Button.cpp" />
+    <ClCompile Include="OK_Button.cpp" />
+    <ClCompile Include="Options_Button.cpp" />
+    <ClCompile Include="Process_Input_Events.cpp" />
+    <ClCompile Include="Quit_Button.cpp" />
+    <ClCompile Include="Render.cpp" />
+    <ClCompile Include="Resume_Button.cpp" />
+    <ClCompile Include="Save_Button.cpp" />
+    <ClCompile Include="Sudoku.cpp" />
+    <ClCompile Include="Sudoku_Board.cpp" />
+    <ClCompile Include="Tile.cpp" />
+    <ClCompile Include="Update.cpp" />
+    <ClCompile Include="Window.cpp" />
+    <ClCompile Include="Window_Events.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Background.h" />
+    <ClInclude Include="Board_Loader.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="Event_Helper_Functions.h" />
+    <ClInclude Include="New_Game_Button.h" />
+    <ClInclude Include="Complete_Button.h" />
+    <ClInclude Include="Difficulty_Select.h" />
+    <ClInclude Include="Difficulty_Button.h" />
+    <ClInclude Include="GameData.h" />
+    <ClInclude Include="Game_Loop.h" />
+    <ClInclude Include="Main_Menu_Button.h" />
+    <ClInclude Include="Message_Box.h" />
+    <ClInclude Include="Number_Button.h" />
+    <ClInclude Include="OK_Button.h" />
+    <ClInclude Include="Options_Button.h" />
+    <ClInclude Include="Quit_Button.h" />
+    <ClInclude Include="Resume_Button.h" />
+    <ClInclude Include="Save_Button.h" />
+    <ClInclude Include="Sudoku.h" />
+    <ClInclude Include="Window_Events.h" />
+    <ClInclude Include="Key_Down_Events.h" />
+    <ClInclude Include="Level_ID.h" />
+    <ClInclude Include="Level_Handler.h" />
+    <ClInclude Include="Main_Menu.h" />
+    <ClInclude Include="Game_Figure.h" />
+    <ClInclude Include="Message_Handler.h" />
+    <ClInclude Include="Mouse_Down_Events.h" />
+    <ClInclude Include="Mouse_Dragging_Events.h" />
+    <ClInclude Include="Mouse_Up_Events.h" />
+    <ClInclude Include="Process_Input_Events.h" />
+    <ClInclude Include="Render.h" />
+    <ClInclude Include="Sudoku_Board.h" />
+    <ClInclude Include="Tile.h" />
+    <ClInclude Include="Update.h" />
+    <ClInclude Include="Window.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

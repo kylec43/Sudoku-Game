@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Model">
+      <UniqueIdentifier>{65d953d4-d5fb-46c7-a047-8e0e5555d8c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\View">
+      <UniqueIdentifier>{213a0f0f-e431-4b1a-aeb8-9821e3e87acb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controller">
+      <UniqueIdentifier>{81beab7e-373c-43bd-bca3-cb12a7c17f02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controller\Level_Handler">
+      <UniqueIdentifier>{9e6ea7c8-4c7a-469a-93f8-932d485b1991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controller\Level_Handler\Levels">
+      <UniqueIdentifier>{d2b12fdd-8ca8-4a24-937b-491cea100e49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model\GameData">
+      <UniqueIdentifier>{cada4fa3-16bf-4720-9067-19fd66c72610}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model\Game_Figures">
+      <UniqueIdentifier>{9babea5b-ab0c-47c0-ae0a-dedf7913165d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controller\Update">
+      <UniqueIdentifier>{00de9c42-6026-4364-bc32-8bddbe24f473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model\Game_Figures\Buttons">
+      <UniqueIdentifier>{de510ffb-7a31-45ef-a2f3-ead595fbfe95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controller\Events">
+      <UniqueIdentifier>{e46e8911-ac82-4bf6-b1ec-5fa3ee794eb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controller\Events\Window_Events">
+      <UniqueIdentifier>{94dc1ce3-4bb3-4e77-9401-55b13b1c8d9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controller\Events\Event_Helper_Functions">
+      <UniqueIdentifier>{36765acc-67bf-4a4c-b8ed-6631a397e392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model\Game_Figures\Message_Handler">
+      <UniqueIdentifier>{44a0ee6d-51df-40b0-a24c-6839a35b8889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controller\Board_Loader">
+      <UniqueIdentifier>{9395c2cf-96ba-4f68-b045-5017587fc76e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model\Game_Figures\Background">
+      <UniqueIdentifier>{7c2f8940-d694-40ea-987d-c11c210030f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model\Game_Figures\Sudoku_Board">
+      <UniqueIdentifier>{b601773e-9de7-4eae-891f-292ae4e86fb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controller\Events\Process_Input_Events">
+      <UniqueIdentifier>{e7679ce2-3082-4dc6-90a7-61fc76db592a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controller\Events\Process_Input_Events\Key_Events">
+      <UniqueIdentifier>{39fface5-2d93-4e93-a411-2e862f1b2c50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Controller\Events\Process_Input_Events\Mouse_Events">
+      <UniqueIdentifier>{ad27ccf4-f824-491f-9ea0-0273c95efa88}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="GameData.cpp">
+      <Filter>Source Files\Model\GameData</Filter>
+    </ClCompile>
+    <ClCompile Include="Render.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="Level_Handler.cpp">
+      <Filter>Source Files\Controller\Level_Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Menu.cpp">
+      <Filter>Source Files\Controller\Level_Handler\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source Files\View</Filter>
+    </ClCompile>
+    <ClCompile Include="Update.cpp">
+      <Filter>Source Files\Controller\Update</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse_Down_Events.cpp">
+      <Filter>Source Files\Controller\Events\Process_Input_Events\Mouse_Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse_Up_Events.cpp">
+      <Filter>Source Files\Controller\Events\Process_Input_Events\Mouse_Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Key_Down_Events.cpp">
+      <Filter>Source Files\Controller\Events\Process_Input_Events\Key_Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse_Dragging_Events.cpp">
+      <Filter>Source Files\Controller\Events\Process_Input_Events\Mouse_Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_Loop.cpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Complete_Button.cpp">
+      <Filter>Source Files\Model\Game_Figures\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="Window_Events.cpp">
+      <Filter>Source Files\Controller\Events\Window_Events</Filter>
+    </ClCompile>
+    <ClCompile Include="Message_Box.cpp">
+      <Filter>Source Files\Model\Game_Figures\Message_Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="OK_Button.cpp">
+      <Filter>Source Files\Model\Game_Figures\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files\Model\Game_Figures\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="Difficulty_Select.cpp">
+      <Filter>Source Files\Controller\Level_Handler\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Difficulty_Button.cpp">
+      <Filter>Source Files\Model\Game_Figures\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="Sudoku.cpp">
+      <Filter>Source Files\Controller\Level_Handler\Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Options_Button.cpp">
+      <Filter>Source Files\Model\Game_Figures\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="New_Game_Button.cpp">
+      <Filter>Source Files\Model\Game_Figures\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="Resume_Button.cpp">
+      <Filter>Source Files\Model\Game_Figures\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="Quit_Button.cpp">
+      <Filter>Source Files\Model\Game_Figures\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="Save_Button.cpp">
+      <Filter>Source Files\Model\Game_Figures\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="Main_Menu_Button.cpp">
+      <Filter>Source Files\Model\Game_Figures\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="Number_Button.cpp">
+      <Filter>Source Files\Model\Game_Figures\Buttons</Filter>
+    </ClCompile>
+    <ClCompile Include="Event_Helper_Functions.cpp">
+      <Filter>Source Files\Controller\Events\Event_Helper_Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Message_Handler.cpp">
+      <Filter>Source Files\Model\Game_Figures\Message_Handler</Filter>
+    </ClCompile>
+    <ClCompile Include="Board_Loader.cpp">
+      <Filter>Source Files\Controller\Board_Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Source Files\Model\Game_Figures\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="Sudoku_Board.cpp">
+      <Filter>Source Files\Model\Game_Figures\Sudoku_Board</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Source Files\Model\Game_Figures\Sudoku_Board</Filter>
+    </ClCompile>
+    <ClCompile Include="Process_Input_Events.cpp">
+      <Filter>Source Files\Controller\Events\Process_Input_Events</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameData.h">
+      <Filter>Source Files\Model\GameData</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.h">
+      <Filter>Source Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_Handler.h">
+      <Filter>Source Files\Controller\Level_Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="Main_Menu.h">
+      <Filter>Source Files\Controller\Level_Handler\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Figure.h">
+      <Filter>Source Files\Model\Game_Figures</Filter>
+    </ClInclude>
+    <ClInclude Include="Window.h">
+      <Filter>Source Files\View</Filter>
+    </ClInclude>
+    <ClInclude Include="Update.h">
+      <Filter>Source Files\Controller\Update</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse_Down_Events.h">
+      <Filter>Source Files\Controller\Events\Process_Input_Events\Mouse_Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse_Up_Events.h">
+      <Filter>Source Files\Controller\Events\Process_Input_Events\Mouse_Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Key_Down_Events.h">
+      <Filter>Source Files\Controller\Events\Process_Input_Events\Key_Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse_Dragging_Events.h">
+      <Filter>Source Files\Controller\Events\Process_Input_Events\Mouse_Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Game_Loop.h">
+      <Filter>Source Files\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Source Files\Model\Game_Figures\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="Complete_Button.h">
+      <Filter>Source Files\Model\Game_Figures\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="Level_ID.h">
+      <Filter>Source Files\Controller\Level_Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="Window_Events.h">
+      <Filter>Source Files\Controller\Events\Window_Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Message_Box.h">
+      <Filter>Source Files\Model\Game_Figures\Message_Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="OK_Button.h">
+      <Filter>Source Files\Model\Game_Figures\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="Difficulty_Select.h">
+      <Filter>Source Files\Controller\Level_Handler\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Difficulty_Button.h">
+      <Filter>Source Files\Model\Game_Figures\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="Sudoku.h">
+      <Filter>Source Files\Controller\Level_Handler\Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Options_Button.h">
+      <Filter>Source Files\Model\Game_Figures\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="New_Game_Button.h">
+      <Filter>Source Files\Model\Game_Figures\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="Resume_Button.h">
+      <Filter>Source Files\Model\Game_Figures\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="Quit_Button.h">
+      <Filter>Source Files\Model\Game_Figures\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="Save_Button.h">
+      <Filter>Source Files\Model\Game_Figures\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="Main_Menu_Button.h">
+      <Filter>Source Files\Model\Game_Figures\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="Number_Button.h">
+      <Filter>Source Files\Model\Game_Figures\Buttons</Filter>
+    </ClInclude>
+    <ClInclude Include="Event_Helper_Functions.h">
+      <Filter>Source Files\Controller\Events\Event_Helper_Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Message_Handler.h">
+      <Filter>Source Files\Model\Game_Figures\Message_Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="Board_Loader.h">
+      <Filter>Source Files\Controller\Board_Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Source Files\Model\Game_Figures\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="Sudoku_Board.h">
+      <Filter>Source Files\Model\Game_Figures\Sudoku_Board</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Source Files\Model\Game_Figures\Sudoku_Board</Filter>
+    </ClInclude>
+    <ClInclude Include="Process_Input_Events.h">
+      <Filter>Source Files\Controller\Events\Process_Input_Events</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
