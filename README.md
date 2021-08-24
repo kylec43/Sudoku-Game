@@ -1,5 +1,4 @@
 # Sudoku-Game
-# Finish Date: December 2019
 Run Sudoku Game.msi to install
 
 # Gameplay:
